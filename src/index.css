@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display:flex ;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.app-wrapper {
+  display: flex;
+}
+
+.app-description {
+  background-color: rgba(243, 222, 164);
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.news-feed {
+  background-color:rgb(221, 187, 240);
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  max-width: 300px;
+  border-radius: 10px;
+  overflow-y:scroll;
+  padding: 10px;
+}
+
+.scroll-view {
+  max-height: 400px;
+  margin-bottom: 5px;
+
+}
+
+.currency-converter {
+  background-color: rgb(176, 191, 255);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  max-width: 450px;
+}
+
+.exchange-rate {
+  background-color: rgb(213, 252, 237);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  float: right;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: coral;
+
+}
+
+.converter-input  {
+  background-color: rgb(218,227,238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+input, select {
+  border: none;
+}
