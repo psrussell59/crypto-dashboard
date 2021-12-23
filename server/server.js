@@ -1,7 +1,3 @@
-// import {express} from './express'
-// import {cors} from './cors'
-// import {axios} from './axios'
-
 const PORT = 8000
 const express = require('express')
 const cors = require('cors')
@@ -53,4 +49,4 @@ app.get('/convert', (req, res) => {
       })
 })
 
-app.listen(PORT, () => console.log(`Backend server is listening on port {PORT} `))
+app.listen(PORT, () => console.log(`Backend server is listening on port ${PORT} `))
